@@ -12,7 +12,6 @@
 			<method name="StartSimulation"/>
 		</type>
 		<type fullname="MainMenuController">
-			<method name="ExitGame"/>
 			<method name="ReturnToMain"/>
 			<method name="ReturnToMain"/>
 			<method name="StartPvPMode"/>

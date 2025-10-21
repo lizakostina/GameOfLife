@@ -104,9 +104,6 @@ ScriptsOnlyBuild:
     fullTypeName: GameOfLifeController
     methodName: StartSimulation
   - assembly: Assembly-CSharp
-    fullTypeName: MainMenuController
-    methodName: ExitGame
-  - assembly: Assembly-CSharp
     fullTypeName: GameOfLifeController
     methodName: SelectSpaceShip
   - assembly: Assembly-CSharp
