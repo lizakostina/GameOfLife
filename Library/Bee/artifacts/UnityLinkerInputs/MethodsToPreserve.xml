@@ -1,0 +1,35 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="GameOfLifeController">
+			<method name="ClearGrid"/>
+			<method name="DecreaseSpeed"/>
+			<method name="IncreaseSpeed"/>
+			<method name="PauseSimulation"/>
+			<method name="RandomizeGrid"/>
+			<method name="SelectGlider"/>
+			<method name="SelectSingleCell"/>
+			<method name="SelectSpaceShip"/>
+			<method name="StartSimulation"/>
+		</type>
+		<type fullname="MainMenuController">
+			<method name="ExitGame"/>
+			<method name="ReturnToMain"/>
+			<method name="ReturnToMain"/>
+			<method name="StartPvPMode"/>
+			<method name="StartSinglePlayer"/>
+		</type>
+		<type fullname="PvPTerritorialController">
+			<method name="DecreaseSpeed"/>
+			<method name="HideResultPanel"/>
+			<method name="HideRules"/>
+			<method name="IncreaseSpeed"/>
+			<method name="PauseSimulation"/>
+			<method name="ResetGame"/>
+			<method name="SelectGlider"/>
+			<method name="SelectSingleCell"/>
+			<method name="SelectSpaceShip"/>
+			<method name="ShowRules"/>
+			<method name="StartSimulation"/>
+		</type>
+	</assembly>
+</linker>

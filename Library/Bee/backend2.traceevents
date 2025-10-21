@@ -1,0 +1,616 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1761048965204921, "dur":20889, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1761048965225821, "dur":77, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1761048965225930, "dur":244, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1761048965226190, "dur":3869, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1761048965230066, "dur":535451, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1761048965765630, "dur":4732, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1761048965226042, "dur":4032, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965230076, "dur":4184, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965234394, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1761048965234543, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1761048965234743, "dur":153, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1761048965234915, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1761048965234262, "dur":987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker /home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/unitylinker_ber2.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1761048965235250, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965235738, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"IL2CPP_CodeGen /home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/il2cpp_conv_po85.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1761048965235891, "dur":454, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965237871, "dur":134, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__48.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238008, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965237867, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jb382bl90ao8.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238118, "dur":65, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238116, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4txc293bo7k9.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238219, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238338, "dur":88, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238429, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238336, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ujyd04nxjfcp.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238496, "dur":264, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238766, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__4.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238863, "dur":63, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238764, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/q1eb1osju0lw.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238984, "dur":88, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239074, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965238983, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4dr60zxnnatx.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239144, "dur":98, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239142, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6brsiwn4oiey.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239293, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239538, "dur":139, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239680, "dur":79, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239536, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jynilqjqkmhe.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239766, "dur":250, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppInteropDataTable.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965239765, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u3xwwnwol5y1.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240089, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__2.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240076, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/uilyo10n5657.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240256, "dur":104, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240365, "dur":151, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TilemapModule.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240519, "dur":77, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240363, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/utaow89352ac.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240605, "dur":98, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__30.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240714, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240604, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wmg7twg968hi.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240791, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240888, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240790, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2r42y024bxil.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965240969, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241072, "dur":108, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppUnresolvedIndirectCallStubs.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241184, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241071, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7a5qf98fpr84.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241249, "dur":77, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__1.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241328, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241248, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dyqnyqcebvjn.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241400, "dur":84, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__42.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241487, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241399, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pc4u280lg49b.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241579, "dur":206, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__12.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241788, "dur":64, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241577, "dur":275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/57spmsnaj6e3.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965241890, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965242036, "dur":108, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__38.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965242146, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965242034, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wgmxpitrxrjh.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965242306, "dur":282, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__33.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965242304, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jiose1r3h1rw.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965242642, "dur":458, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243104, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965242640, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cp2f1dnf1qev.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243181, "dur":251, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243437, "dur":69, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243508, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243435, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4z31sdfpupsm.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243604, "dur":103, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__3.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243710, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243602, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/szexili0v86w.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243773, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__6.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243870, "dur":105, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243772, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b3uu8boi43w4.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965243976, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244085, "dur":100, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__10.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244083, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5cr4f0x9vifq.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244282, "dur":90, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__40.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244375, "dur":100, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244280, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jhxi7p8qasm9.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244476, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244598, "dur":95, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__9.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244697, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244597, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0e4fgy4g6zlh.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244811, "dur":221, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__16.cpp" }}
+,{ "pid":12345, "tid":1, "ts":1761048965245034, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965244809, "dur":276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dj4ym6c2wm00.o" }}
+,{ "pid":12345, "tid":1, "ts":1761048965245090, "dur":52622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1761048965297780, "dur":434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/webgl-logo.png" }}
+,{ "pid":12345, "tid":1, "ts":1761048965298235, "dur":209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/progress-bar-empty-dark.png" }}
+,{ "pid":12345, "tid":1, "ts":1761048965298447, "dur":467057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965226050, "dur":4033, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965230085, "dur":251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965230337, "dur":235, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965230572, "dur":274, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965230846, "dur":197, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965231043, "dur":246, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965231290, "dur":94, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965231384, "dur":2919, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965234315, "dur":1444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965235759, "dur":2111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965237893, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238014, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965237874, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/92ha9rmq2iuo.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238126, "dur":72, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__23.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238124, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wn7g17zlein5.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238239, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238346, "dur":96, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238446, "dur":88, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238344, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/al8fi2jx3l87.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238541, "dur":74, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/al8fi2jx3l87.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238617, "dur":80, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__2.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238616, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/byj431jqt0qk.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238735, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965238937, "dur":290, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239232, "dur":72, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__5.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239230, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8v9ykqhqtx5f.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239331, "dur":163, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239499, "dur":85, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239587, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239497, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ksp16i9cgi3j.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239643, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239721, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__12.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239840, "dur":61, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239713, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4539cbw78ocr.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965239902, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240004, "dur":374, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__5.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240381, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240003, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1lcr4z9gflaq.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240447, "dur":84, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__34.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240534, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240445, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4xrgua60kp3f.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240608, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240738, "dur":71, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240607, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/51htmpkas91o.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240817, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__18.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240816, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/icmv87dushlr.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965240999, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241076, "dur":126, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__10.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241205, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241074, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zcmdr9ufdur0.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241273, "dur":78, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241354, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241272, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6h17t7tvtamv.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241432, "dur":85, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Core.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241520, "dur":82, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241431, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1ah7k43itgs7.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241603, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241745, "dur":105, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__39.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241854, "dur":71, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241744, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xo6day9p1t0w.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241964, "dur":303, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__46.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242269, "dur":98, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965241962, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xnf42mqdukv9.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242408, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242646, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__13.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242767, "dur":58, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242645, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bxo5h8c5xlpr.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242833, "dur":80, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242916, "dur":61, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242832, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vvh1xpnqjqw8.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242995, "dur":87, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System__1.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243086, "dur":90, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965242987, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/hoztubkskbrz.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243211, "dur":77, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.GridModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243291, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243210, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8veu002inqk4.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243398, "dur":92, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__22.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243396, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b83slylobubm.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243568, "dur":84, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreFontEngineModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243655, "dur":61, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243566, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n2kfi8e3bbhq.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243721, "dur":144, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n2kfi8e3bbhq.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243867, "dur":121, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateFieldValues.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965243866, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c2q66vu9n2ic.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244129, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244258, "dur":90, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__8.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244351, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244257, "dur":166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fz0r0oqj3bay.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244458, "dur":72, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__11.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244532, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244448, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6kbl0fe8zkw5.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244593, "dur":81, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__3.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244677, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244592, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/m8luk1mum7ch.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244766, "dur":158, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AudioModule.cpp" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244927, "dur":77, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965244757, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ev8nkz112o1d.o" }}
+,{ "pid":12345, "tid":2, "ts":1761048965245011, "dur":52689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1761048965297781, "dur":302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/webmemd-icon.png" }}
+,{ "pid":12345, "tid":2, "ts":1761048965298114, "dur":190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/unity-logo-light.png" }}
+,{ "pid":12345, "tid":2, "ts":1761048965298319, "dur":173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/progress-bar-full-light.png" }}
+,{ "pid":12345, "tid":2, "ts":1761048965298496, "dur":467047, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965226089, "dur":4001, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965230093, "dur":296, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965230390, "dur":307, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965230697, "dur":165, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965230863, "dur":208, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965231072, "dur":282, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965231366, "dur":2901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965234305, "dur":1436, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965235845, "dur":2027, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965237884, "dur":200, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965238087, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965237875, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/d07vrqi9yhut.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965238157, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965238480, "dur":425, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__13.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965238908, "dur":107, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965238478, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6fd66738m8vi.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239024, "dur":84, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__19.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239111, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239022, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3rpjohsrv5wa.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239188, "dur":605, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__7.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239796, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239187, "dur":704, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x453gn1c4eqe.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239892, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239998, "dur":89, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240099, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965239996, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/um9vassrdzt1.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240201, "dur":78, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__8.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240282, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240188, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xqiz80iebup3.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240374, "dur":443, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__15.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240820, "dur":65, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240372, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/cbki2qw3skjl.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240897, "dur":98, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppReversePInvokeWrapperTable.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965240894, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/supr0vym1c8p.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965241025, "dur":526, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965241555, "dur":88, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__20.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965241554, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pkgol9qs43in.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965241768, "dur":118, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System__2.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965241766, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iwjafr0qod8e.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965241939, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242008, "dur":101, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__21.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242118, "dur":128, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242007, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qs045o7q85z2.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242287, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/lmgbfuff303m.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242408, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242626, "dur":119, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__5.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242624, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/en21iadw2yzv.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242826, "dur":74, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242902, "dur":53, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242825, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/97tazgsk8yyw.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242967, "dur":107, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__47.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243077, "dur":67, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965242960, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i3isiw4ax86s.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243153, "dur":127, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__9.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243284, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243152, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9wn04dz8s1vn.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243454, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243559, "dur":167, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yibarsvpv000.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243729, "dur":83, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243815, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243727, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/icgxsoktnzzn.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243884, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243975, "dur":93, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244071, "dur":83, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965243958, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/aqznjm3rpy94.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244154, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244267, "dur":97, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateFieldValues1.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244367, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244266, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7weuu3ikp9if.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244459, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244586, "dur":83, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__25.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244672, "dur":95, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244585, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ibvl1wuhl8f4.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244804, "dur":102, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__13.cpp" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244910, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244803, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pl7xska5bdoa.o" }}
+,{ "pid":12345, "tid":3, "ts":1761048965244999, "dur":41213, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1761048965286310, "dur":11354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/Build/WebGLBuild.wasm" }}
+,{ "pid":12345, "tid":3, "ts":1761048965297780, "dur":246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/progress-bar-empty-light.png" }}
+,{ "pid":12345, "tid":3, "ts":1761048965298054, "dur":467419, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/style.css" }}
+,{ "pid":12345, "tid":4, "ts":1761048965226104, "dur":3994, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965230100, "dur":391, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965230492, "dur":259, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965230751, "dur":111, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965230862, "dur":158, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965231020, "dur":275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965231295, "dur":81, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965231376, "dur":2917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965234298, "dur":51832, "ph":"X", "name": "ComputeLeafInputSignature",  "args": { "detail":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/il2cpp.a" }}
+,{ "pid":12345, "tid":4, "ts":1761048965286310, "dur":282, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/Build/WebGLBuild.framework.js" }}
+,{ "pid":12345, "tid":4, "ts":1761048965286594, "dur":11267, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1761048965297881, "dur":29830, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/index.html" }}
+,{ "pid":12345, "tid":4, "ts":1761048965327717, "dur":437819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965226123, "dur":3983, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965230108, "dur":248, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965230357, "dur":212, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965230569, "dur":179, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965230749, "dur":155, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965230905, "dur":171, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965231076, "dur":287, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965231364, "dur":2905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965234294, "dur":66, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/_dummy_for_header_discovery" }}
+,{ "pid":12345, "tid":5, "ts":1761048965234361, "dur":1391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965235787, "dur":2095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965237894, "dur":155, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCFieldValuesTable.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965238053, "dur":245, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965237884, "dur":415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tea7ghcdi90r.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965238300, "dur":239, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965238548, "dur":91, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__1.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965238547, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/0kypkcsyfhki.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965238684, "dur":82, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965238796, "dur":87, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PropertiesModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965238794, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/14e5ihckj5jx.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965238934, "dur":401, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239339, "dur":58, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__41.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239338, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4w06mzmodgys.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239424, "dur":184, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239614, "dur":159, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.Physics2DModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239776, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239613, "dur":222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xr28o3snwi3i.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239851, "dur":70, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__4.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239849, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g682oqvjcxy6.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965239946, "dur":141, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240087, "dur":90, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g682oqvjcxy6.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240180, "dur":100, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextRenderingModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240283, "dur":67, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240178, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/nz37ral0wnt0.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240351, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240486, "dur":86, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__45.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240575, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240484, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c8bgndcgrwjq.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240635, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240725, "dur":99, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Configuration.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240828, "dur":86, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240724, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qr3dpd4wou1j.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240964, "dur":66, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/System.Xml.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965240963, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vm02cwq2s7nb.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241055, "dur":482, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241543, "dur":101, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppInvokerTable.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241541, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/fa745kggy9e0.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241723, "dur":114, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241841, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241721, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/x0kubhp2wfcr.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241930, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241990, "dur":105, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__3.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242098, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965241989, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/vq5e9ghm98mn.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242213, "dur":154, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__35.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242369, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242212, "dur":219, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pdv49jkyndfz.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242431, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242561, "dur":117, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__6.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242680, "dur":61, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242560, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2tw7ofqfjnr5.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242742, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242816, "dur":76, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__17.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242895, "dur":70, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242815, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/h41eosxvof4b.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242972, "dur":101, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__2.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243077, "dur":93, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965242971, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jk0dd40rr1g3.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243212, "dur":86, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SpriteShapeModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243302, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243201, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/o2avcu4pwhez.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243381, "dur":235, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__32.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243620, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243379, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ia4bulb5dzah.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243699, "dur":86, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__24.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243787, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243698, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xvrxlngkik4k.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243920, "dur":103, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.PhysicsModule.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244027, "dur":69, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965243918, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zatyyqzsu80e.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244122, "dur":68, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__12.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244112, "dur":114, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qhlh2yy7uxd8.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244272, "dur":93, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244368, "dur":113, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244271, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/u37rf17s4ggj.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244481, "dur":126, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244612, "dur":89, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__10.cpp" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244704, "dur":131, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244611, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/iig5cm1b2yjs.o" }}
+,{ "pid":12345, "tid":5, "ts":1761048965244836, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965245006, "dur":52688, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965297731, "dur":113, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1761048965297849, "dur":346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/unity-logo-dark.png" }}
+,{ "pid":12345, "tid":5, "ts":1761048965298213, "dur":158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/MemoryProfiler.png" }}
+,{ "pid":12345, "tid":5, "ts":1761048965298374, "dur":467153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965226142, "dur":3969, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965230113, "dur":218, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965230331, "dur":211, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965230542, "dur":246, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965230788, "dur":175, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965230963, "dur":163, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965231126, "dur":245, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965231372, "dur":2922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965234302, "dur":67, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info" }}
+,{ "pid":12345, "tid":6, "ts":1761048965234370, "dur":1394, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965235765, "dur":2114, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965237894, "dur":219, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965238251, "dur":109, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965237881, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bhizgy6gxoxf.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965238369, "dur":187, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__51.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965238367, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/bz0pvmc5flxn.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965238610, "dur":235, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__17.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965238848, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965238608, "dur":297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/yy7m2frzzack.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965238998, "dur":80, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Assembly-CSharp.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239082, "dur":68, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965238996, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/t4ok4ijwovo9.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239161, "dur":83, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.CoreModule__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239159, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/v0b4xbyu69jr.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239295, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239469, "dur":154, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCTypeValuesTable.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239626, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239467, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/51fkfy9nd7nq.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239702, "dur":110, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239816, "dur":66, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239692, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zlesyf79hlcm.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239883, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239978, "dur":95, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__43.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240083, "dur":78, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965239975, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qkobnohkk6qr.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240187, "dur":89, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__8.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240278, "dur":58, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240185, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ohkcp4kbqdk4.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240337, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240422, "dur":110, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.SharedInternalsModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240535, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240420, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/9ik0txbae24s.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240619, "dur":84, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.IMGUIModule__1.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240712, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240617, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/g5b1tk4uzyed.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240782, "dur":93, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240878, "dur":80, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240780, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/1si64r8wjj1x.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965240959, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241069, "dur":109, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241181, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241068, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rrugy511r6ph.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241245, "dur":77, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__44.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241324, "dur":55, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241243, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b0rz2xvhnu2a.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241413, "dur":83, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__11.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241501, "dur":74, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241412, "dur":163, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3xjtsvf94mvb.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241595, "dur":194, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__3.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241792, "dur":76, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241584, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ptuug9blqy4g.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241868, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241951, "dur":92, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__15.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242046, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965241949, "dur":159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b9u2s940i3g9.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242117, "dur":129, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__7.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242249, "dur":155, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242116, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wiyiol2f7r8n.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242405, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242543, "dur":160, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__31.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242706, "dur":54, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242542, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xu0necx7abzx.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242760, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242819, "dur":73, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UI__2.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242895, "dur":63, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242818, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/e6a4i6scfx02.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242967, "dur":79, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__14.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243049, "dur":59, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965242966, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/a1am8to2e1zt.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243117, "dur":84, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__50.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243115, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qjx1fdy7cxl4.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243260, "dur":76, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.AnimationModule.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243339, "dur":61, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243258, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/8fnwp3wnew4c.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243406, "dur":88, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__37.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243496, "dur":53, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243405, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/b1i998euu37x.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243565, "dur":82, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__36.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243649, "dur":67, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243563, "dur":153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qlfluz0wrfwe.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243726, "dur":79, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__5.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243808, "dur":72, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243724, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qnr6s29k1fll.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243896, "dur":113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244011, "dur":56, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965243894, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/zazeqa2e9l5l.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244068, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244124, "dur":78, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/GenericMethods__7.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244123, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/n9zv4o4cmb3o.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244245, "dur":211, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244462, "dur":66, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__9.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244459, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/i6lnoaxbei1m.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244573, "dur":254, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244831, "dur":95, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__8.cpp" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244929, "dur":78, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965244829, "dur":178, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ik9rwwfa721x.o" }}
+,{ "pid":12345, "tid":6, "ts":1761048965245014, "dur":52693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1761048965297781, "dur":311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/favicon.ico" }}
+,{ "pid":12345, "tid":6, "ts":1761048965298121, "dur":191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/progress-bar-full-dark.png" }}
+,{ "pid":12345, "tid":6, "ts":1761048965298314, "dur":467199, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1761048965226160, "dur":3958, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1761048965230120, "dur":245, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1761048965230366, "dur":349, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1761048965230715, "dur":135, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1761048965230850, "dur":230, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1761048965231080, "dur":290, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1761048965231370, "dur":2925, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1761048965234694, "dur":134, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_7kyv.info" }}
+,{ "pid":12345, "tid":7, "ts":1761048965234876, "dur":97, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1761048965234973, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1761048965234829, "dur":318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1761048965235472, "dur":81223, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WebGL/boot.config" }}
+,{ "pid":12345, "tid":7, "ts":1761048965318094, "dur":88947, "ph":"X", "name": "Assemble",  "args": { "detail":"WebGL Data Library/Bee/artifacts/WebGL/webgl.data" }}
+,{ "pid":12345, "tid":7, "ts":1761048965407096, "dur":3706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/Build/WebGLBuild.data" }}
+,{ "pid":12345, "tid":7, "ts":1761048965410804, "dur":354704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965226179, "dur":3944, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965230124, "dur":482, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965230606, "dur":77, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965230683, "dur":220, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965230903, "dur":163, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965231067, "dur":319, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965231386, "dur":2926, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965234313, "dur":1433, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965235842, "dur":2099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965237944, "dur":54, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule_CodeGen.c" }}
+,{ "pid":12345, "tid":8, "ts":1761048965237941, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/91bo4m8miduq.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238013, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238134, "dur":88, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238132, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tsm7o4ctbx0k.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238274, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238354, "dur":93, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__16.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238449, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238352, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/woyq8ijylrss.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238552, "dur":93, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCodeRegistration.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238550, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/llgmy1dkwe1t.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965238691, "dur":282, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239007, "dur":102, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__15.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239112, "dur":65, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239005, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/xkcaix704biq.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239185, "dur":323, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__29.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239510, "dur":60, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239184, "dur":387, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/qm6u1ak9yo11.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239607, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239710, "dur":115, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__14.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239828, "dur":61, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239709, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/c58l2nt31n66.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239890, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239988, "dur":82, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240073, "dur":89, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965239986, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/2wcjxkl4ydbs.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240182, "dur":101, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__7.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240286, "dur":64, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240181, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ergbg99kz9si.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240351, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240440, "dur":99, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__14.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240543, "dur":77, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240438, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/rvgumhi6pw71.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240713, "dur":99, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__4.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240815, "dur":84, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240712, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7npi0a1rpvo0.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240911, "dur":233, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Mono.Security.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965240909, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/ymmhlw85vv5j.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241188, "dur":91, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__6.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241281, "dur":55, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241186, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/tbdn0zvnwlhz.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241377, "dur":90, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__27.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241470, "dur":64, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241376, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4yiq1lpdsy82.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241535, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241590, "dur":231, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241827, "dur":81, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241589, "dur":319, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/culsqcwlf3mh.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241993, "dur":107, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.UIElementsModule__4.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242104, "dur":112, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965241992, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pf7p8mtmxd45.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242303, "dur":185, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/mscorlib__9.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242301, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/jst8gcw8a5id.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242527, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242644, "dur":101, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__49.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242748, "dur":50, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242643, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/4q6wilz63yzr.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242798, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242999, "dur":103, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__6.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243105, "dur":75, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965242997, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/z25pyjrt5mbf.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243181, "dur":370, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243558, "dur":93, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.InputLegacyModule.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243654, "dur":85, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243557, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/7z2l3ju40yvw.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243747, "dur":87, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/__Generated.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243837, "dur":94, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243745, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/usmgf1w6v35p.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243940, "dur":117, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Il2CppCCalculateTypeValues.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244059, "dur":91, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965243939, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/6a92odge5u2y.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244151, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244263, "dur":89, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Unity.TextMeshPro__4.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244355, "dur":120, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244261, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/dfilyuwxywig.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244475, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244591, "dur":68, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__26.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244662, "dur":62, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244589, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/3qy9g68eowrn.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244766, "dur":113, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/UnityEngine.TextCoreTextEngineModule__3.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244882, "dur":57, "ph":"X", "name": "ImplicitDepsSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244765, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/wdnsjbynwo23.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244956, "dur":94, "ph":"X", "name": "ScanImplicitDeps",  "args": { "detail":"/home/lizakostina/mipt5/Unity/GameOfLife/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/Generics__28.cpp" }}
+,{ "pid":12345, "tid":8, "ts":1761048965244954, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/pemehv3avmkm.o" }}
+,{ "pid":12345, "tid":8, "ts":1761048965245099, "dur":52622, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965297731, "dur":122, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1761048965297856, "dur":181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/TemplateData/fullscreen-button.png" }}
+,{ "pid":12345, "tid":8, "ts":1761048965298060, "dur":467403, "ph":"X", "name": "PreprocessJS",  "args": { "detail":"/home/lizakostina/mipt5/Unity/WebGLBuild/Build/WebGLBuild.loader.js" }}
+,{ "pid":12345, "tid":0, "ts":1761048965771542, "dur":400, "ph":"X", "name": "ProfilerWriteOutput" }
+,
